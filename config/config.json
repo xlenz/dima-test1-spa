@@ -1,0 +1,14 @@
+{
+  "host": "",
+  "port": 81,
+
+  "app_html": "app/app.html",
+  "pathToApp": "\\app",
+
+  "mysql": {
+    "host": "localhost",
+    "user": "dimaTestUsr",
+    "password": "dimaTestPwd",
+    "database": "dimTestDb"
+  }
+}

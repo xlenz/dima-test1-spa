@@ -1,0 +1,9 @@
+      <form name="insertSelect" ng-submit="insertSelect.$valid && isCtrl.submit()" novalidate>
+        <h3>Post request(s)</h3>
+        <fieldset class="form-group">
+          <input type="number" ng-model="isCtrl.amount" min="1" max="1000" class="form-control" placeholder="queries at once" title="Simultaneous queries" required/>
+        </fieldset>
+        <fieldset class="form-group">
+          <input type="submit" class="btn btn-primary pull-right" value="Post" />
+        </fieldset>
+      </form>

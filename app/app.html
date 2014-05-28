@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="dimaSpa">
+
+<head lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dima SPA</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/isForm.css">
+  <script src="http://localhost:35729/livereload.js"></script>
+</head>
+
+<body class="container">
+  <h1>Dima SPA</h1>
+  <section ng-controller="InsertSelectController as isCtrl">
+    <div>
+      <h2>Insert and select</h2>
+      <is-form></is-form>
+      <h3>List of responses</h3>
+      <is-list></is-list>
+    </div>
+  </section>
+
+  <script src="libs/jquery/jquery.min.js"></script>
+  <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="libs/angular/angular.min.js"></script>
+  <script src="app.js"></script>
+  <script src="directives.js"></script>
+</body>
+
+</html>
