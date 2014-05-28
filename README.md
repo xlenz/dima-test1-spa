@@ -11,5 +11,4 @@ dima-test1-spa
 8. localhost:81
 
 
-See console/network for response. Will fix it later.
-You can measure time in log only... It took ~2 seconds to create 1000 users.
+You can measure time in log only for now...
